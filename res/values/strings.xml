@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IticaApp!</string>
+    <string name="app_name">Itica</string>
+    <string name="directory">Directory</string>
+    <string name="directMe">Direct Me</string>
+    <string name="news">News</string>
+    <string name="offers">Offers</string>
+    <string name="enterChipperName">Enter Chipper Name</string>
+    <string name="chipper_list">Chipper List</string>
+    <string name="venue_list">Venue List</string>
+    <string name="name">Name : </string>
+    <string name="location">Location : </string>
+    <string name="chipper_info">Chipper Info</string>
+    <string name="direct_me">Direct Me</string>
+   
+    <string name="dashboard_action">Action</string>
+    <string name="description_logo">Google I/O 2010</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Search</string>
+    <string name="description_map">Map</string>
+    <string name="description_refresh">Refresh</string>
+    <string name="description_share">Share</string>
+    <string name="description_export">Export</string>
+    <string name="description_star">Star</string>
+    <string name="now_playing_loading">Looking up nearby sessions\u2026</string>
+</resources>

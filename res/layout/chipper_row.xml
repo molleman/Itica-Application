@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="30px" android:layout_width="fill_parent" android:orientation="vertical"
+    android:background = "#FFFFFF"
+    >
+ 	<TextView
+            android:id="@+id/toptext"
+            android:layout_width="fill_parent"
+            android:layout_height="15px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+            
+        />
+        
+      	<TextView
+            android:id="@+id/address_text"
+            android:layout_width="fill_parent"
+            android:layout_height="15px"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+        />
+ 	
+ </LinearLayout>

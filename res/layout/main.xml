@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+      <TextView 
+        	android:text="@string/app_name" 
+        	android:textSize="80px"
+        	android:id="@+id/textView1" 
+        	android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:typeface="serif" android:gravity="center_horizontal"
+        	
+        	android:paddingBottom="30px">
+     </TextView>
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:orientation="vertical"
+    	android:layout_marginRight="15px"
+    	android:layout_marginLeft="15px" android:layout_height="match_parent">
+       
+      	    <Button android:id="@+id/directory_button" android:layout_width="match_parent" android:layout_height="wrap_content"  android:height="65px" android:text="@string/directory"></Button>
+        	<Button android:id="@+id/direct_me_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="65px" android:text="@string/directMe"></Button>
+        	<Button android:id="@+id/news_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="65px" android:text="@string/news"></Button>
+        	<Button android:id="@+id/offers_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="65px" android:text="@string/offers"></Button>
+	 </LinearLayout>        
+   
+    
+    
+    
+</LinearLayout>

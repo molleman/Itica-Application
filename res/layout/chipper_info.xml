@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="match_parent">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/name" android:layout_width="wrap_content"></TextView>
+                <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/name_textview"></TextView>
+                <Button android:id="@+id/infoActivityButton" android:text="Button" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            	
+            
+            </TableRow>
+        	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        		<TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/location" android:layout_width="wrap_content"></TextView>
+        		<TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/address_textview"></TextView>
+        		<TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/county_textview"></TextView>
+        	</TableRow>
+        	
+        </TableLayout>
+        
+        <com.google.android.maps.MapView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/mapview"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:clickable="true"
+		    android:apiKey="01imfLRGHJtvj46x98zz24l4uus_Coo5PhyDQSQ"
+		/>
+    </LinearLayout>
