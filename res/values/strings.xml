@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, IticaApp!</string>
-    <string name="app_name">Itica</string>
+    <string name="app_name">ITICA</string>
     <string name="directory">Directory</string>
     <string name="directMe">Direct Me</string>
     <string name="news">News</string>
